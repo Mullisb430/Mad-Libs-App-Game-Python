@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1792</width>
+    <height>990</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(58, 33, 42);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="submission_1">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>100</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>210</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>330</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>330</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>450</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>450</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>570</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>570</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_6">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>90</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_6">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>90</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_7">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>210</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_7">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>210</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_8">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>330</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_8">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>330</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_9">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>450</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_9">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>450</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_10">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>570</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_10">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>570</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playStory">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>730</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 60pt &quot;Avenir Next Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PLAY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="anotherOne">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>730</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;Avenir Next Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Get Another Story</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_11">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>1030</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_11">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>1040</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_12">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1040</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_12">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>1050</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_13">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>1050</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_13">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1060</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_14">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>1060</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_14">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>1070</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_15">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>1070</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_15">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>1080</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_16">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>1080</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_16">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>1090</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_17">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>1090</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_17">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>1100</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_18">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>1100</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_18">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>1110</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_19">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>1100</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_19">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>1110</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_20">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>1100</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_20">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>1110</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_21">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>1100</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_21">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>1110</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typeOfWord_22">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>1100</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt &quot;Avenir Next Condensed&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="submission_22">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>1110</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 52, 60);
+font: 24pt &quot;Avenir Next Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1792</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
