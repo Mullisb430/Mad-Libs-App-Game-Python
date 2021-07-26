@@ -1,0 +1,2 @@
+# Mad-Libs-App-Game-Python
+A "MadLibs" styled game. A completely functional GUI (Graphical User Interface), Python game. Made with PyQt5. Features a lot of built in stories. If you do not know what "Mad Libs" is, Mad Libs is a game where a story is taken, and keywords are removed from it. The user is then asked to substitute random, and sometime crude words, in those spots. The resulting story is often humorous!
